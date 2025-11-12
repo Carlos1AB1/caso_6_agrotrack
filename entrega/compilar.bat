@@ -12,7 +12,7 @@ if not exist "bin" (
 
 REM Compilar todos los archivos Java
 echo 🔨 Compilando archivos Java...
-javac -d bin -sourcepath src src\Main.java
+javac -encoding UTF-8 -d bin -sourcepath src src\Main.java
 
 if %ERRORLEVEL% EQU 0 (
     echo.
